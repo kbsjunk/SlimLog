@@ -1,0 +1,11 @@
+{
+    "name": "kitbs/SlimLog",
+    "type": "library",
+    "description": "Slim log file writer",
+    "require": {
+        "slim/slim": ">=2.0.0",
+    },
+    "autoload": {
+        "classmap": ["SlimLogWriter.php"]
+    }
+}
